@@ -1,4 +1,4 @@
-name: PRINCIPAL COMPONENT ANALYSIS BOT
+name: CANNABIS BOT
 
 on:
   issues:
@@ -6,7 +6,7 @@ on:
       - labeled
       
 jobs:
-  pcabotrun:
+  cannabis_run:
     if: github.event.label.name == 'ml_cannabis'
     runs-on: "ubuntu-latest"
     steps:
