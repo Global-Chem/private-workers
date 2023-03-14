@@ -26,6 +26,7 @@ jobs:
         run: |
           pip install pandas
           pip install numpy
+          pip install sckikit-learn
           pip install rdkit-pypi
           pip install torch
       - name: Run Analysis
