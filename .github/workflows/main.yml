@@ -1,0 +1,49 @@
+name: PRINCIPAL COMPONENT ANALYSIS BOT
+
+on:
+  issues:
+    types:
+      - labeled
+      
+jobs:
+  pcabotrun:
+    if: github.event.label.name == 'ml_cannabis'
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+          architecture: x64
+      - uses: actions/cache@v2
+        with:
+          path: ${{ env.pythonLocation }}
+          key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('dev-requirements.txt') }}
+      - name: Install
+        run: |
+          pip install pandas
+          pip install numpy
+          pip install rdkit-pypi
+          pip install torch
+      - name: Run Analysis
+        run: |
+          cd machine_learning_operations/cannabis
+          python python main.py --scoring-function activity_model --num-steps 100 --batch-size 10 --num-processes 1 > results.out
+      - name: Send file README.md to discord channel
+        uses: sinshutu/upload-to-discord@master
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.FAITH_TOKEN }}
+        with:
+          args: machine_learning_operations/cannabis/results.out
+          
+#       - name: send message
+#         uses: appleboy/discord-action@master
+#         with:
+#           webhook_id: ${{ secrets.DISCORD_ML_ID }}
+#           webhook_token: ${{ secrets.MACHINE_LEARNING_WEBHOOK_TOKEN }}
+# #           file: "discord_services/plot.png"
+#           message: "Send Multiple File."
+#          python principal_component_analysis.py --smiles_list --morgan_radius --bit_representation --number_of_clusters --number_of_components --random_state --file_name --principal_component_x --principal_component_y --x_axis_label --y_axis_label --plot_width --plot_height --title,
