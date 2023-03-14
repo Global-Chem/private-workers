@@ -27,7 +27,7 @@ jobs:
           pip install pandas
           pip install numpy
           pip install scikit-learn
-          pio install pexpect
+          pip install pexpect
           pip install rdkit-pypi
           pip install torch
       - name: Run Analysis
