@@ -16,7 +16,7 @@ jobs:
       - name: Setup python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.9
+          python-version: 3.7
           architecture: x64
       - uses: actions/cache@v2
         with:
@@ -27,7 +27,7 @@ jobs:
           pip install pandas
           pip install numpy
           pip install scipy
-          pip install scikit-learn==0.19.2
+          sudo pip install scikit-learn==0.19.2
           pip install pexpect
           pip install rdkit-pypi
           pip install torch
