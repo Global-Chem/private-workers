@@ -25,7 +25,7 @@ jobs:
       - name: Install
         run: |
           pip install pandas
-          pip install numpy
+          pip install numpy==1.8.2
           pip install scipy
           sudo pip install scikit-learn==0.19.2
           pip install pexpect
