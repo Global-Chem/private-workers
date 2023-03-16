@@ -24,10 +24,10 @@ jobs:
           key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('dev-requirements.txt') }}
       - name: Install
         run: |
+          sudo pip install scikit-learn
           pip install pandas
-          pip install numpy==1.8.2
+          pip install numpy
           pip install scipy
-          sudo pip install scikit-learn==0.19.2
           pip install pexpect
           pip install rdkit-pypi
           pip install torch
