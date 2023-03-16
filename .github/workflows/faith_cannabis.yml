@@ -26,14 +26,14 @@ jobs:
         run: |
           pip install pandas
           pip install numpy
-          pip install scikit-learn
+          pip install scikit-learn --upgrade
           pip install pexpect
           pip install rdkit-pypi
           pip install torch
       - name: Run Analysis
         run: |
           cd machine_learning_operations/cannabis
-          python main.py --scoring-function activity_model --num-steps 100 --batch-size 10 --num-processes 1 > results.out
+          python main.py --scoring-function activity_model --num-steps 10 --batch-size 1 > results.out
       - name: Send file README.md to discord channel
         uses: sinshutu/upload-to-discord@master
         env:
