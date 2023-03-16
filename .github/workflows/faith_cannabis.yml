@@ -24,7 +24,7 @@ jobs:
           key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('dev-requirements.txt') }}
       - name: Install
         run: |
-          sudo pip install scikit-learn
+          pip install scikit-learn
           pip install pandas
           pip install numpy
           pip install scipy
