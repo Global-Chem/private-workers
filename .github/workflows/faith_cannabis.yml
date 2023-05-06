@@ -35,9 +35,10 @@ jobs:
         run: |
           cd machine_learning_operations/cannabis
           python main.py --scoring-function activity_model --num-steps 100 --batch-size 1 > results.out
+          python generate_images.py
       - name: Send file README.md to discord channel
         uses: sinshutu/upload-to-discord@master
         env:
           DISCORD_WEBHOOK: ${{ secrets.FAITH_TOKEN }}
         with:
-          args: machine_learning_operations/cannabis/results.out
+          args: machine_learning_operations/cannabis/results.png
