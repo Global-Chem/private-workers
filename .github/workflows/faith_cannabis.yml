@@ -1,4 +1,4 @@
-name: CANNABIS BOT
+name: Cannabis Generative AI Bot
 
 on:
   issues:
@@ -7,7 +7,7 @@ on:
       
 jobs:
   cannabis_run:
-    if: github.event.label.name == 'ml_cannabis'
+    if: github.event.label.name == 'run_cannabis'
     runs-on: "ubuntu-latest"
     steps:
       - name: Checkout source
@@ -16,7 +16,7 @@ jobs:
       - name: Setup python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.9
+          python-version: 3.7
           architecture: x64
       - uses: actions/cache@v2
         with:
@@ -24,28 +24,20 @@ jobs:
           key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('dev-requirements.txt') }}
       - name: Install
         run: |
+          pip install scikit-learn==0.19.2
           pip install pandas
           pip install numpy
-          pip install scikit-learn --upgrade
+          pip install scipy
           pip install pexpect
           pip install rdkit-pypi
           pip install torch
       - name: Run Analysis
         run: |
           cd machine_learning_operations/cannabis
-          python main.py --scoring-function activity_model --num-steps 10 --batch-size 1 > results.out
+          python main.py --scoring-function activity_model --num-steps 100 --batch-size 1 > results.out
       - name: Send file README.md to discord channel
         uses: sinshutu/upload-to-discord@master
         env:
           DISCORD_WEBHOOK: ${{ secrets.FAITH_TOKEN }}
         with:
           args: machine_learning_operations/cannabis/results.out
-          
-#       - name: send message
-#         uses: appleboy/discord-action@master
-#         with:
-#           webhook_id: ${{ secrets.DISCORD_ML_ID }}
-#           webhook_token: ${{ secrets.MACHINE_LEARNING_WEBHOOK_TOKEN }}
-# #           file: "discord_services/plot.png"
-#           message: "Send Multiple File."
-#          python principal_component_analysis.py --smiles_list --morgan_radius --bit_representation --number_of_clusters --number_of_components --random_state --file_name --principal_component_x --principal_component_y --x_axis_label --y_axis_label --plot_width --plot_height --title,

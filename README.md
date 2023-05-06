@@ -1,3 +1,14 @@
-### Faith Workers
+### Workers For Different AI Training
 
-Cannabis - Trained on PhytoCanniboids and JWH Compounds
+# Categories Include
+
+- War
+- Cannabis
+- Sex
+- Medicinal Chemistry
+- Education
+- Food
+- Environment
+- Space
+- Materials
+- Narcotics
