@@ -34,7 +34,7 @@ if __name__ == '__main__':
 
     images = Draw.MolsToGridImage(
       molecules,
-      molsPerRow=4,
+      molsPerRow=10,
       subImgSize=(200,200),
     )
 
