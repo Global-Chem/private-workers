@@ -2,6 +2,7 @@
 # -------
 
 import os
+import json
 import requests
 from rdkit import Chem
 from rdkit.Chem import Draw
