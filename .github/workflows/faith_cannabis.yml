@@ -31,6 +31,7 @@ jobs:
           pip install pexpect
           pip install rdkit-pypi
           pip install torch
+          pip install requests
       - name: Run Analysis
         run: |
           cd machine_learning_operations/cannabis
