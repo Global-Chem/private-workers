@@ -44,4 +44,4 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.WAR_TOKEN }}
         with:
-          args: machine_learning_operations/war/results.out
+          args: machine_learning_operations/war/results.png

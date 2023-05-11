@@ -44,4 +44,4 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.SPACE_TOKEN }}
         with:
-          args: machine_learning_operations/space/results.out
+          args: machine_learning_operations/space/results.png
