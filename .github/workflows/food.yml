@@ -1,0 +1,43 @@
+name: Food Generative AI Bot
+
+on:
+  issues:
+    types:
+      - labeled
+
+jobs:
+  cannabis_run:
+    if: github.event.label.name == 'run_food'
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+          architecture: x64
+      - uses: actions/cache@v2
+        with:
+          path: ${{ env.pythonLocation }}
+          key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('dev-requirements.txt') }}
+      - name: Install
+        run: |
+          pip install scikit-learn==0.19.2
+          pip install pandas
+          pip install numpy
+          pip install scipy
+          pip install pexpect
+          pip install rdkit-pypi
+          pip install torch
+      - name: Run Analysis
+        run: |
+          cd machine_learning_operations/food
+          python main.py --scoring-function activity_model --num-steps 100 --batch-size 1 > results.out
+      - name: Send file README.md to discord channel
+        uses: sinshutu/upload-to-discord@master
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.FOOD_TOKEN }}
+        with:
+          args: machine_learning_operations/food/results.out
