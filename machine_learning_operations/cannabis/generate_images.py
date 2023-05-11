@@ -35,7 +35,7 @@ if __name__ == '__main__':
 
     data = {
         "title": "Cannabis Run",
-        "body": "" % smiles_list
+        "body": "%s" % smiles_list
 
     }
     
