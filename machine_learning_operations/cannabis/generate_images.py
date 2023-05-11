@@ -28,6 +28,7 @@ if __name__ == '__main__':
 
         try:
             molecule = Chem.MolFromSmiles(smiles)
+            print (molecule)
             molecules.append(molecule)
         except:
             continue
