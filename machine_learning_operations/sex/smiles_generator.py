@@ -10,9 +10,9 @@ if __name__ == '__main__':
     output_file = open('mol.smi', 'w')
     gc = GlobalChem()
     gc.build_global_chem_network()
-    node_1 = list(gc.get_node_smiles('oral_contraceptives').values())
+    node_1 = list(gc.get_node_smiles('exsens_products').values())
     node_2 = list(gc.get_node_smiles('lube').values())    
-    smiles_list = node_1 + node_2 
+    smiles_list = node_2 
 #     smiles_list = smiles_list + jwh_compounds    
     
     for molecule in smiles_list:
