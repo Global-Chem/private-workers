@@ -72,7 +72,7 @@ jobs:
         - name: Remove Chemical From List
           run: |
             cd machine_learning_operations/cannabis
-            python remove_chemical.py --index 109
+            python remove_chemical.py --index ${{ github.event.issue.body }}
         - name: Commit and Push File
           uses: stefanzweifel/git-auto-commit-action@v4
           with:
