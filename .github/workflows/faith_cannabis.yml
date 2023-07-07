@@ -47,7 +47,7 @@ jobs:
         with:
           args: machine_learning_operations/cannabis/results.png
   remove_chemical:
-      if: github.event.label.name == 'remove_item'
+      if: github.event.label.name == 'remove_chemical'
       runs-on: "ubuntu-latest"
       env:
         GITHUB_TOKEN: ${{ secrets.ISSUE_TOKEN }}
@@ -69,10 +69,10 @@ jobs:
           run: |
             pip install pandas
             pip install click
-        - name: Remove Item
+        - name: Remove Chemical From List
           run: |
             cd machine_learning_operations/cannabis
-            python remove_item.py --index 109
+            python remove_chemical.py --index 109
         - name: Commit and Push File
           uses: stefanzweifel/git-auto-commit-action@v4
           with:
