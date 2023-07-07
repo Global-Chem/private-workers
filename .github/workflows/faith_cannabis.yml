@@ -77,7 +77,7 @@ jobs:
           uses: stefanzweifel/git-auto-commit-action@v4
           with:
             commit_message: Removing Chemical Item
-            branch: master
+            create_branch: true
             file_pattern: 'machine_learning_operations/cannabis/chemical_list.csv'
   retrain_cannabis:
       if: github.event.label.name == 'retrain_cannabis'
