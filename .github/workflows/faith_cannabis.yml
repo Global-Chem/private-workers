@@ -112,6 +112,8 @@ jobs:
             GITHUB_TOKEN: ${{ secrets.ISSUE_TOKEN }}
           run: |
             cd machine_learning_operations/cannabis
+            python smiles_generator.py
+            python data_structs.py mol.smi
             python train_prior.py
         - name: Send file README.md to discord channel
           uses: sinshutu/upload-to-discord@master
