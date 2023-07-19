@@ -1,0 +1,461 @@
+Model initialized, starting training...
+
+       Step 0   Fraction valid SMILES: 100.0  Time elapsed: 0.00h Time left: 0.02h
+  Agent    Prior   Target   Score             SMILES
+  -4.95    -4.95   -4.46    0.02     CCCCCc1cc2c(c(O)c1C(=O)OC1(C)CC3CCC(C)=CC3C(C(C)C)C1)C1C=C(C)CCC1C(C)(C)O2
+
+       Step 1   Fraction valid SMILES: 100.0  Time elapsed: 0.00h Time left: 0.02h
+  Agent    Prior   Target   Score             SMILES
+  -5.44    -5.02   -4.51    0.03     CCCCCc1cc2c(c(O)c1C(=O)OC(C)(C)C1CCC3(C)CCCC(C)=C3C1)C1C=C(C)CCC1C(C)(C)O2
+
+       Step 2   Fraction valid SMILES: 100.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -5.38    -5.17   -4.74    0.02     CCc1cc(O)c2c(c1)OC(C)(C)c1ccc(C)cc1-2
+
+       Step 3   Fraction valid SMILES: 100.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -5.85    -5.11   -4.39    0.04     CCCCCCCCc1cc(O)c2c(c1)OC(C)(C)[C@@H]1CCC(C)=C[C@@H]21
+
+       Step 4   Fraction valid SMILES: 100.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -3.92    -4.97   -3.76    0.06     C=C(C)C(O)CCC(=C)C1CCC(C)=CC1c1c(O)cc(C)cc1O
+
+       Step 5   Fraction valid SMILES: 100.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -3.89    -4.89   -2.19    0.13     C=C(C)C(O)Cc1c(O)cc(CCc2ccccc2)cc1O
+
+       Step 6   Fraction valid SMILES:  0.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -5.35   -17.55  -17.55    0.00     CC(C)=CCc1c(O)c(C=Cc2ccc(O)cc2)cc1O
+
+       Step 7   Fraction valid SMILES:  0.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -9.71   -24.95  -24.95    0.00     Cc1cc(O)c2c(c1)O)c1CC=C(C)C[C@@H]21
+
+       Step 8   Fraction valid SMILES: 100.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -4.11    -4.64   -4.38    0.01     CCCCCn1c(C)c(C(=O)c2cccc3ccccc23)c2ccccc21
+
+       Step 9   Fraction valid SMILES:  0.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -13.84   -68.97  -68.97    0.00     CC(C)/C=C/c1c(O)OC)cc(CCc2ccccc2)c(C(=O)O)O)=CC(C)(C)O2
+
+       Step 10   Fraction valid SMILES: 100.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -6.38   -40.33  -40.26    0.00     CC1CCC2C(C1)C1C=C(C)CCC1C(C)C(C)O2
+
+       Step 11   Fraction valid SMILES: 100.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -4.55    -4.64   -3.75    0.04     CCCCCn1cc(Cc2ccc(C)c3ccccc23)c2ccccc21
+
+       Step 12   Fraction valid SMILES: 100.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -3.76    -4.96   -3.52    0.07     C=C(C)C1CCC(C)(O)C2Oc3cc(CCC)cc(O)c3C12
+
+       Step 13   Fraction valid SMILES: 100.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -8.89   -40.39  -40.18    0.01     CC(C)=CCC/C(C)=C\Cc1c(C)OCc(CCCCC)cc(O)c1C(=O)O
+
+       Step 14   Fraction valid SMILES: 100.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -3.47   -13.89  -13.79    0.01     COc1ccc(C(=O)c2ccc(C)c3ccccc23)c2ccccc21
+
+       Step 15   Fraction valid SMILES: 100.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -3.42    -5.03   -4.96    0.00     CCCn1c(C)c(C(=O)c2ccc(C)c3ccccc23)c2ccccc21
+
+       Step 16   Fraction valid SMILES:  0.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -6.43   -41.25  -41.25    0.00     COC(=O)c1c(O)O)c(CC=Cc2ccc(C)c(C)cc23)c2ccccc21
+
+       Step 17   Fraction valid SMILES:  0.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -5.49   -24.37  -24.37    0.00     CC[C@@H](C)C(C)(C)c1cc(O)c2c(c1)O)c(C)cc1-2
+
+       Step 18   Fraction valid SMILES: 100.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -4.19    -4.31   -4.22    0.00     CCCCn1cc(C(=O)c2cccc3ccccc23)c2ccccc21
+
+       Step 19   Fraction valid SMILES: 100.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -6.37   -16.71  -15.88    0.04     CCCCCn1cc(C(=O)c2cccc3ccc(OC)cc23)cc1-c1cccc2ccccc12
+
+       Step 20   Fraction valid SMILES:  0.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -4.33   -88.94  -88.94    0.00     COc1cc(CCc2ccccc3)cc(O)c1C/C=C(/C)CCC=C(C)CC3C1C2C3(C)CCC1C(C)(C)O2
+
+       Step 21   Fraction valid SMILES:  0.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -1.66   -41.95  -41.95    0.00     COc1cc(CCc2ccccc2)c(C(=O)c2)c1C(=O)O)c1O
+
+       Step 22   Fraction valid SMILES: 100.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -3.93   -22.17  -21.26    0.05     CCCCCn1c(C)c(C(=O)c2ccc(OC)c3ccccc23)cc1-c1ccccc1
+
+       Step 23   Fraction valid SMILES:  0.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -7.06   -50.48  -50.48    0.00     O=C(c1cccc2ccccc12)OC(C)(C)C1=C2C(OCC)C(C(O)CC1c1
+
+       Step 24   Fraction valid SMILES: 100.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -4.43    -4.86   -4.66    0.01     CCCCn1c(C)c(C(=O)c2cccc3ccc(C)cc23)c2ccccc21
+
+       Step 25   Fraction valid SMILES:  0.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -6.29   -32.21  -32.21    0.00     COC(=O)c1c(O)c(C)c(-c4cc5ccccc23)cc1-c1ccccc1F
+
+       Step 26   Fraction valid SMILES: 100.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -5.40    -4.82   -4.68    0.01     CCCCCn1cc(C(=O)Cc2ccccc2Br)c2ccccc21
+
+       Step 27   Fraction valid SMILES: 100.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -3.86   -32.43  -31.77    0.03     CCCCCn1c(C)c(C(=O)c2ccc(OC)c3ccc(C)cc23)cc1-c1ccccc1F
+
+       Step 28   Fraction valid SMILES:  0.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -11.41   -76.88  -76.88    0.00     CCCCCn1c(C)c(C(=O)c2ccc(OC)c3c(cc)c2)c(C(=O)c2cn(C)c3ccccc23)cc1-c1ccccc1F
+
+       Step 29   Fraction valid SMILES:  0.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -10.13   -73.57  -73.57    0.00     CCCCCOc1cc(C)c(O)cc2c1C(=O)O)c(CCC3C(C)=O)C2O3
+
+       Step 30   Fraction valid SMILES:  0.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -7.61   -58.96  -58.96    0.00     COC(=O)c1c(O)c(CCN3cc(O)cc(C)cc23)cc1O
+
+       Step 31   Fraction valid SMILES:  0.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -10.26   -56.57  -56.57    0.00     CCCc1cc(O)c2c(c)c1)O)C1=C2C(O)C(C)(O)CC1
+
+       Step 32   Fraction valid SMILES:  0.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -11.61   -113.98  -113.98    0.00     CCC(C)=CC1c1c(O)cc(CCc2ccccc2)cc(O)cc2)cc(O)cc1
+
+       Step 33   Fraction valid SMILES:  0.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -9.18   -67.73  -67.73    0.00     COc1cc(C)cc(O)c3ccccc23)cc(O)cc1C(C)(C)O2
+
+       Step 34   Fraction valid SMILES:  0.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -10.13   -159.77  -159.77    0.00     COc1cc(CC2ccccc2)cc(O)cc2)cc(O)cc1)OC(C)(C)[C@@H]1CC=C(C)CC1(C)C
+
+       Step 35   Fraction valid SMILES: 100.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -9.71   -25.63  -25.12    0.03     CCCCCc1cc(O)c(C/C=C(\C)CC/C=C(\C)CCC=C(C)C)c(O)cc(O)c1O
+
+       Step 36   Fraction valid SMILES:  0.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -38.53   -266.74  -266.74    0.00     COC(=O)c1c(O)O)cc(O)cc(O)c1)O)C1C=C(C)CCC1C(C(O)O)c(O)c3ccc(O)cc3ccccc23)cc(O)cc1-c1ccccc1)c(-ccccc12)O
+
+       Step 37   Fraction valid SMILES:  0.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -33.87   -355.67  -355.67    0.00     CCCCCn1c(C)C(=O)c2cccc3ccc(O)cc3ccc(O)cc2cccc3ccc(O)cc2cccc3ccc(O)cc3ccc(O)cc2cccc3ccccc23)cc3ccccc21)O)cc1O)Oc(ccccc1)O)cc(O)c3ccc(O)c3cccc
+
+       Step 38   Fraction valid SMILES:  0.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -17.78   -268.85  -268.85    0.00     COc1cc(C)c(O)c3ccc(O)cc2ccccc21)O)cc1O)O)cc1O)C1C=C(C)CCC1C(C(O)O)c(O)c3ccc(O)cc4)ccccc21
+
+       Step 39   Fraction valid SMILES:  0.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -18.14   -177.90  -177.90    0.00     COc1cc(O)c1)O)c(C)c(O)cc3ccccc23)cc1O)c(C)c(O)cc1-cc1ccccc1F
+
+       Step 40   Fraction valid SMILES:  0.0  Time elapsed: 0.00h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -11.28   -964.97  -964.97    0.00     COC(=O)c1c(O)c1)O)c(O)c1)O)c1O)O)c(O)c1)O)c1O)O)c(O)c1)O)c1O)O)c1O)O)c(O)c1)O)c1O)O)c(O)c1)O)c1O)O)c(O)c1)O)c1O)O)c(O)c1)O)c1O)O)c(O)c1)O)c1
+
+       Step 41   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -10.33   -29.17  -29.17    0.00     C=C(C)C1CCC(C)(O)C2Oc3c(C(=O)O)cc(O)c3ccccc23)cc1O
+
+       Step 42   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -7.96   -99.67  -99.67    0.00     CCCCCCn1cc(C(=O)c2cccc3ccccc23)cc1O)c1O)O)cc1O)c1
+
+       Step 43   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -22.29   -222.72  -222.72    0.00     CCCCCCOc1cc(O)c2c(c1)O)c1O)O)-c1cc(O)c1)O)C1C=C(C)O)C(C1)O)C2=O
+
+       Step 44   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -16.69   -577.40  -577.40    0.00     COC(C)=O)c1OC(C)=O)O)c(O)c1O)O)-c1cc(O)O)c(O)c1O)O)-c1cc(O)O)c1O)O)-c1cc(O)c1)O)O)c(O)O)c1O)O)c1O)O)C(C)(O)O)c1O
+
+       Step 45   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -15.48   -369.34  -369.34    0.00     CCCCCCOc1cc(O)c1OC)c(O)c1OC)c1cc(O)c1)O)c1O)O)c1O)O)C1C=C(C)O)C(O)C12
+
+       Step 46   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -18.75   -400.93  -400.93    0.00     CC(C)=CCC1C(C)(O))C2Oc3cc(O)O)cc4O)cc(O)c4)cc1O)O)c(O)O)cc1O)O)c1O)O)c(O)O)cc1O)O)O)O
+
+       Step 47   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -22.77   -742.42  -742.42    0.00     C=C(C)C1CCC(C)CC1c1c(O)cc1)O)c1O)O)c(O)O)cc1O)O)cc(O)O)c1O)O)c1O)O)-c1ccc(O)O)cc1O)O)cc(O)O)c1O)O)c1O)O)cc(O)O)c1O)O)c1O)O)c(O)O)cc1O)O)cc1O
+
+       Step 48   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -35.33   -971.43  -971.43    0.00     Cc1cc(O)c1)O)O)c1O)O)c1O)O)c1O)O)cc(O)c1)O)O1)O)C1CC(O)C(O)C)=CC1)C1O)C(O)C)c1O)O)c(O)O)cc1O)O)c1O)O)cc(O)O)c1O)O)cc1O)O)cc(O)O)c1O)O)c1O)O)
+
+       Step 49   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -14.83   -163.09  -163.09    0.00     COCCCCn1c(C)ccc2ccc(O)c4)cccc1Cl)O
+
+       Step 50   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -9.43   -64.13  -64.13    0.00     CCCCCCCn1cc(C(=O)c2cccc2ccccc2)ccccc21
+
+       Step 51   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -19.84   -570.76  -570.76    0.00     O=O)c1O)c1OC2(C)O)c1O)c1O)c1O)c1O)c1O)O1O)O)cc(O)O)c1O)O1)O)-c1OC(C)=O)C1C=C(C)O)C2O1
+
+       Step 52   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -20.20   -211.78  -211.78    0.00     CCCCCCn1cc(C(O)c2cccc2ccccc2)ccc1O)c1O)[C@@H]1O)O4C1C=C(C)(O)CC21
+
+       Step 53   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -7.57   -107.24  -107.24    0.00     CCCCCCn1cc(C(=O)c2cccc2ccccc23)cc1O)c1O)C1C=C(C)(O)C[C@@H]21
+
+       Step 54   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -11.52   -120.29  -120.29    0.00     CO)c1O)c1O)C1CC2(O)C12O2
+
+       Step 55   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -18.75   -152.13  -152.13    0.00     CCCCCCn1c(C)c3cccc3ccc(O)c)c2cccc2)cccc12O)
+
+       Step 56   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -17.50   -339.45  -339.45    0.00     CO)C1CC2c3c(O)c2cccc2ccccc23)cc1O)[C@@H]1O)[C@@H]1O)O2)c1O)[C@@H]1O)O21
+
+       Step 57   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -12.00   -270.98  -270.98    0.00     O=O)c1O)c1O)c1O)c1O)c1O)C1CC=C(C)(C)=O)2O)C1
+
+       Step 58   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -1.39   -1234.94  -1234.94    0.00     CO)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c
+
+       Step 59   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -14.47   -914.62  -914.62    0.00     CC(O)=O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)c1O)C1CC1=C(C)=O)2)O1
+
+       Step 60   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+ -16.15   -165.98  -165.98    0.00     CCCCCCn1cc(C(=O)c2cccc3ccccc23)cc1O)c1O)c1O)c1O)c1)O1
+
+       Step 61   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.01h
+  Agent    Prior   Target   Score             SMILES
+  -6.95   -54.97  -54.97    0.00     CCCCCn1cc(C(=O)2)cccc2ccccc23)cc2ccccc12
+
+       Step 62   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+  -7.65   -31.12  -31.12    0.00     CCCCCn1cc(C(=O)c2cccc3ccccc2o)cc2ccccc21
+
+       Step 63   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+  -7.73   -59.56  -59.56    0.00     CCCCCn1cc(C(=O)c2ccccc2o3)ccccc1-c1ccccc1
+
+       Step 64   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+ -10.18   -96.91  -96.91    0.00     C=O)C1CC(=O)=C2c1cccc2ccccc21
+
+       Step 65   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+ -10.61   -114.93  -114.93    0.00     CCCCCn1cc(C(=O)2cccc3ccccc2o)cccc2ccccc2ccccc21
+
+       Step 66   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+ -10.10   -40.96  -40.96    0.00     CCCCCn1cc(C(=O)c2cccc2ccccc2oCl)c2ccccc21
+
+       Step 67   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+  -9.78   -115.03  -115.03    0.00     CCCCCn1cc(C(=O)c2occcc2ccccc2o)ccccc1-ccccc1
+
+       Step 68   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+ -11.47   -84.35  -84.35    0.00     CCCCn1c(C)c(ccc2ccccc2o)cccc1Cl2
+
+       Step 69   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+  -3.90   -38.40  -38.40    0.00     CCCCCn1cc(C(=O)c2cccc2ccccc2o
+
+       Step 70   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+  -8.69   -123.16  -123.16    0.00     CCCCn1cc(C(=O)2)c2ccccc2o)ccccc2ccccc21
+
+       Step 71   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+  -5.51   -43.03  -43.03    0.00     CCCCCCn1cc(C(=O)c2cccc3ccccc2o)cccc1
+
+       Step 72   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+  -3.26   -46.27  -46.27    0.00     CCCCCn1cc(C(=O)c2ccccc23)ccccc12
+
+       Step 73   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+  -2.36   -26.90  -26.90    0.00     CCCCCn1cc(C(=O)c2cccc2ccccc23
+
+       Step 74   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+  -2.78   -46.01  -46.01    0.00     CCCCCn1cc(C(=O)c2cccc2ccccc23)ccccc12
+
+       Step 75   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+ -21.04   -186.64  -186.64    0.00     C=O)C1CC(C3(C)42)C12C(O=)C2ccccc21
+
+       Step 76   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+ -14.99   -100.86  -100.86    0.00     CCCCCCn1cc(C(=O))c2ccccN2Cl)ccccc2o1
+
+       Step 77   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+ -23.13   -177.03  -177.03    0.00     CCCCCn1cc(C(=O))2)c2ccccc2oCl-c2ccccc2o)cccc2ccccc2o1
+
+       Step 78   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+ -24.71   -206.10  -206.10    0.00     CCCCCCCn1cc(C(=O)))c2)c2ccccc2)cccc2Clcccc2)ccccc12
+
+       Step 79   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+ -10.21   -186.39  -186.39    0.00     CCCCCCCn1cc(C(=O))2)cccc2ccccc2ccccc2o)cccc21
+
+       Step 80   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+  -7.46   -147.42  -147.42    0.00     CCCCCCn1cc(C(=O))c2cccc2Cl)cccc2ccccc2ccccc2o
+
+       Step 81   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+ -12.82   -128.15  -128.15    0.00     CCCCCCCn1cc(C)(C)(C)c2ccccc2o(C)(O)))c4O2
+
+       Step 82   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+ -13.88   -219.93  -219.93    0.00     CCCCCCn1cc(C(=O)))c2ccccc2Clcccc2Cl)ccccc2ccccc2Clccccc2Cl
+
+       Step 83   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+  -7.47   -109.51  -109.51    0.00     CCCCCCCn1cc(C(=O))c2ccccc2ccccc2Clccccc2Cl2
+
+       Step 84   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+  -2.34   -54.13  -54.13    0.00     CCCCCCn1cc(C(=O))c2ccccc2ccccc2Cl
+
+       Step 85   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+  -5.19   -78.75  -78.75    0.00     CCCCCCn1cc(C(=O)2)cc2Occccc2Cl
+
+       Step 86   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+  -6.50   -118.06  -118.06    0.00     CCCCCCn1cc(C(=O)2)cccc2ccccc2ccccc2ccccc2Cl
+
+       Step 87   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+  -3.28   -874.83  -874.83    0.00     CCCCCCCCn1cc(C(=O)c2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2
+
+       Step 88   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+  -2.35   -625.88  -625.88    0.00     CCCCCCn1cc(C(=O)c2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2cc
+
+       Step 89   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+ -28.33   -484.14  -484.14    0.00     CCCCCCn1c(C(=O)2)ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2GOCCO(C)(C)[C@@H]c1ccc(Cl)c2cccccc2Cl
+
+       Step 90   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+ -24.29   -188.11  -188.11    0.00     CCCCCCCC(C()()O3)cc1Oc2ccc(O)c2O)ccccc1ccccc2o
+
+       Step 91   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+ -12.35   -621.85  -621.85    0.00     CCCCCCn1cc(C(=O)c2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2cccccc2ccccc2ccccc2ccccc2cccccc2ccccc2ccccc2ccccc2ccccc2
+
+       Step 92   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+ -16.74   -436.89  -436.89    0.00     CCCCCCCC(C(=)\)c2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2Clccccc2ccccc12
+
+       Step 93   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+ -18.32   -211.69  -211.69    0.00     CCCCCn1c(C)(C(=O)c2ccccc2ccccc2cccccc2ccccc2ccccc2ccccc2ccccc2Cl
+
+       Step 94   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+ -21.32   -196.41  -196.41    0.00     CCC(C)/C=C/CC(C3(C)/O)c1cc(O)c2Occccc2ccc(O)cccc2O2
+
+       Step 95   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+ -24.96   -378.41  -378.41    0.00     CCC(C)/C=C/CC(=)O23)cc1O)ccccc1ccccc2cccccc2ccccc2ccccc2cccccc2ccccccc2OC2
+
+       Step 96   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+  -7.48   -232.14  -232.14    0.00     CCCCCCCC(C(C)(O))c1ccccc2ccccc2ccccc2ccccc2ccccc2ccccc2O
+
+       Step 97   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+  -7.14   -132.08  -132.08    0.00     CCCCCCCC(C(=O)=O)c1ccc(O)c2Occccc1
+
+       Step 98   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+ -21.78   -196.23  -196.23    0.00     CCCCCCCC(C(=O)\O)2OC1c3cc(C)cccc3ccccc2C(C(C)(Cl)O)2O)c1O2
+
+       Step 99   Fraction valid SMILES:  0.0  Time elapsed: 0.01h Time left: 0.00h
+  Agent    Prior   Target   Score             SMILES
+ -12.15   -183.04  -183.04    0.00     CCCCCCCC(C(=O)=O)c1Oc3cc(C)c(O)ccc(O)2O)cccc1
+
+********************************************************************************
+
+         Best recorded SMILES: 
+
+Score     Prior log P     SMILES
+
+0.02    -4.95        CCCCCc1cc2c(c(O)c1C(=O)OC1(C)CC3CCC(C)=CC3C(C(C)C)C1)C1C=C(C)CCC1C(C)(C)O2
+0.03    -5.02        CCCCCc1cc2c(c(O)c1C(=O)OC(C)(C)C1CCC3(C)CCCC(C)=C3C1)C1C=C(C)CCC1C(C)(C)O2
+0.02    -5.17        CCc1cc(O)c2c(c1)OC(C)(C)c1ccc(C)cc1-2
+0.04    -5.11        CCCCCCCCc1cc(O)c2c(c1)OC(C)(C)[C@@H]1CCC(C)=C[C@@H]21
+0.06    -4.97        C=C(C)C(O)CCC(=C)C1CCC(C)=CC1c1c(O)cc(C)cc1O
+0.13    -4.89        C=C(C)C(O)Cc1c(O)cc(CCc2ccccc2)cc1O
+0.00   -17.55        CC(C)=CCc1c(O)c(C=Cc2ccc(O)cc2)cc1O
+0.00   -24.95        Cc1cc(O)c2c(c1)O)c1CC=C(C)C[C@@H]21
+0.01    -4.64        CCCCCn1c(C)c(C(=O)c2cccc3ccccc23)c2ccccc21
+0.00   -68.97        CC(C)/C=C/c1c(O)OC)cc(CCc2ccccc2)c(C(=O)O)O)=CC(C)(C)O2
+0.00   -40.33        CC1CCC2C(C1)C1C=C(C)CCC1C(C)C(C)O2
+0.04    -4.64        CCCCCn1cc(Cc2ccc(C)c3ccccc23)c2ccccc21
+0.07    -4.96        C=C(C)C1CCC(C)(O)C2Oc3cc(CCC)cc(O)c3C12
+0.01   -40.39        CC(C)=CCC/C(C)=C\Cc1c(C)OCc(CCCCC)cc(O)c1C(=O)O
+0.01   -13.89        COc1ccc(C(=O)c2ccc(C)c3ccccc23)c2ccccc21
+0.00    -5.03        CCCn1c(C)c(C(=O)c2ccc(C)c3ccccc23)c2ccccc21
+0.00   -41.25        COC(=O)c1c(O)O)c(CC=Cc2ccc(C)c(C)cc23)c2ccccc21
+0.00   -24.37        CC[C@@H](C)C(C)(C)c1cc(O)c2c(c1)O)c(C)cc1-2
+0.00    -4.31        CCCCn1cc(C(=O)c2cccc3ccccc23)c2ccccc21
+0.04   -16.71        CCCCCn1cc(C(=O)c2cccc3ccc(OC)cc23)cc1-c1cccc2ccccc12
+0.00   -88.94        COc1cc(CCc2ccccc3)cc(O)c1C/C=C(/C)CCC=C(C)CC3C1C2C3(C)CCC1C(C)(C)O2
+0.00   -41.95        COc1cc(CCc2ccccc2)c(C(=O)c2)c1C(=O)O)c1O
+0.05   -22.17        CCCCCn1c(C)c(C(=O)c2ccc(OC)c3ccccc23)cc1-c1ccccc1
+0.00   -50.48        O=C(c1cccc2ccccc12)OC(C)(C)C1=C2C(OCC)C(C(O)CC1c1
+0.01    -4.86        CCCCn1c(C)c(C(=O)c2cccc3ccc(C)cc23)c2ccccc21
+0.00   -32.21        COC(=O)c1c(O)c(C)c(-c4cc5ccccc23)cc1-c1ccccc1F
+0.01    -4.82        CCCCCn1cc(C(=O)Cc2ccccc2Br)c2ccccc21
+0.03   -32.43        CCCCCn1c(C)c(C(=O)c2ccc(OC)c3ccc(C)cc23)cc1-c1ccccc1F
+0.00   -76.88        CCCCCn1c(C)c(C(=O)c2ccc(OC)c3c(cc)c2)c(C(=O)c2cn(C)c3ccccc23)cc1-c1ccccc1F
+0.00   -73.57        CCCCCOc1cc(C)c(O)cc2c1C(=O)O)c(CCC3C(C)=O)C2O3
+0.00   -58.96        COC(=O)c1c(O)c(CCN3cc(O)cc(C)cc23)cc1O
+0.00   -56.57        CCCc1cc(O)c2c(c)c1)O)C1=C2C(O)C(C)(O)CC1
+0.00   -113.98        CCC(C)=CC1c1c(O)cc(CCc2ccccc2)cc(O)cc2)cc(O)cc1
+0.00   -67.73        COc1cc(C)cc(O)c3ccccc23)cc(O)cc1C(C)(C)O2
+0.00   -159.77        COc1cc(CC2ccccc2)cc(O)cc2)cc(O)cc1)OC(C)(C)[C@@H]1CC=C(C)CC1(C)C
+0.03   -25.63        CCCCCc1cc(O)c(C/C=C(\C)CC/C=C(\C)CCC=C(C)C)c(O)cc(O)c1O
+0.00   -266.74        COC(=O)c1c(O)O)cc(O)cc(O)c1)O)C1C=C(C)CCC1C(C(O)O)c(O)c3ccc(O)cc3ccccc23)cc(O)cc1-c1ccccc1)c(-ccccc12)O
+0.00   -355.67        CCCCCn1c(C)C(=O)c2cccc3ccc(O)cc3ccc(O)cc2cccc3ccc(O)cc2cccc3ccc(O)cc3ccc(O)cc2cccc3ccccc23)cc3ccccc21)O)cc1O)Oc(ccccc1)O)cc(O)c3ccc(O)c3cccc
+0.00   -268.85        COc1cc(C)c(O)c3ccc(O)cc2ccccc21)O)cc1O)O)cc1O)C1C=C(C)CCC1C(C(O)O)c(O)c3ccc(O)cc4)ccccc21
+0.00   -177.90        COc1cc(O)c1)O)c(C)c(O)cc3ccccc23)cc1O)c(C)c(O)cc1-cc1ccccc1F
+0.00   -964.97        COC(=O)c1c(O)c1)O)c(O)c1)O)c1O)O)c(O)c1)O)c1O)O)c(O)c1)O)c1O)O)c1O)O)c(O)c1)O)c1O)O)c(O)c1)O)c1O)O)c(O)c1)O)c1O)O)c(O)c1)O)c1O)O)c(O)c1)O)c1
+0.00   -29.17        C=C(C)C1CCC(C)(O)C2Oc3c(C(=O)O)cc(O)c3ccccc23)cc1O
+0.00   -99.67        CCCCCCn1cc(C(=O)c2cccc3ccccc23)cc1O)c1O)O)cc1O)c1
+0.00   -222.72        CCCCCCOc1cc(O)c2c(c1)O)c1O)O)-c1cc(O)c1)O)C1C=C(C)O)C(C1)O)C2=O
+0.00   -577.40        COC(C)=O)c1OC(C)=O)O)c(O)c1O)O)-c1cc(O)O)c(O)c1O)O)-c1cc(O)O)c1O)O)-c1cc(O)c1)O)O)c(O)O)c1O)O)c1O)O)C(C)(O)O)c1O
+0.00   -369.34        CCCCCCOc1cc(O)c1OC)c(O)c1OC)c1cc(O)c1)O)c1O)O)c1O)O)C1C=C(C)O)C(O)C12
+0.00   -400.93        CC(C)=CCC1C(C)(O))C2Oc3cc(O)O)cc4O)cc(O)c4)cc1O)O)c(O)O)cc1O)O)c1O)O)c(O)O)cc1O)O)O)O
+0.00   -742.42        C=C(C)C1CCC(C)CC1c1c(O)cc1)O)c1O)O)c(O)O)cc1O)O)cc(O)O)c1O)O)c1O)O)-c1ccc(O)O)cc1O)O)cc(O)O)c1O)O)c1O)O)cc(O)O)c1O)O)c1O)O)c(O)O)cc1O)O)cc1O
+0.00   -971.43        Cc1cc(O)c1)O)O)c1O)O)c1O)O)c1O)O)cc(O)c1)O)O1)O)C1CC(O)C(O)C)=CC1)C1O)C(O)C)c1O)O)c(O)O)cc1O)O)c1O)O)cc(O)O)c1O)O)cc1O)O)cc(O)O)c1O)O)c1O)O)
+0.00   -163.09        COCCCCn1c(C)ccc2ccc(O)c4)cccc1Cl)O
+
+********************************************************************************
+
