@@ -3,10 +3,11 @@
 
 from rdkit import Chem
 from global_chem import GlobalChem
+import pandas as pd
 
 if __name__ == '__main__':
 
-    input_file = pd.read_csv('./chemical_list.csv', header=None, usecols=[0], names=["smiles"])
+    input_file = pd.read_csv('.\chemical_list.csv', header=None, usecols=[0], names=["smiles"])
     smiles_list = input_file["smiles"].values.tolist()
     output_file = open('mol.smi', 'w') 
     
