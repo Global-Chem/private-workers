@@ -14,17 +14,17 @@
 - Narcotics
 - Performance Enhancements
 
-
 ### Operational Testing
 
-| GlobalChem Version | Platform \| Python Version | Installation Results | Operational Results |
-|--------------------|----------------------------|----------------------|---------------------|
-| 1.0.0              | Linux x86 \| 3.7           | NONE                 | NONE                |
-| 1.0.0              | Linux x86 \| 3.8           | NONE                 | NONE                |
-| 1.0.0              | Linux x86 \| 3.9           | NONE                 | NONE                |
-| 1.0.0              | Windows 11 \| 3.7          | NONE                 | NONE                |
-| 1.0.0              | Windows 11 \| 3.8          | NONE                 | NONE                |
-| 1.0.0              | Windows 11 \| 3.9          | NONE                 | NONE                |
-| 1.0.0              | Mac OS Monterey \| 3.7     | NONE                 | NONE                |
-| 1.0.0              | Mac OS Monterey \| 3.8     | NONE                 | NONE                |
-| 1.0.0              | Mac OS Monterey \| 3.9     | NONE                 | NONE                |
+| MotherNature Version | Platform/Version                | Command                                  | Expected Output Pass | Date                |
+|----------------------|---------------------------------|------------------------------------------|----------------------| --------------------|
+| 1.0.0                | Discord Stable 215115 (c05cd54) | /commands                                | NONE                 | 07/26/2023          |
+| 1.0.0                | Discord Stable 215115 (c05cd54) | /is_color_legal chemical_name            | NONE                 | 07/26/2023          |
+| 1.0.0                | Discord Stable 215115 (c05cd54) | /check_fda_color_status                  | NONE                 | 07/26/2023          |
+| 1.0.0                | Discord Stable 215115 (c05cd54) | /remove_smile_file                       | NONE                 | 07/26/2023          |
+| 1.0.0                | Discord Stable 215115 (c05cd54) | /add_smile_file                          | NONE                 | 07/26/2023          |
+| 1.0.0                | Discord Stable 215115 (c05cd54) | /retrain_mother_nature                   | NONE                 | 07/26/2023          |
+| 1.0.0                | Discord Stable 215115 (c05cd54) | /make_github_issue_lorax                 | NONE                 | 07/26/2023          |
+| 1.0.0                | Discord Stable 215115 (c05cd54) | /make_github_issue_arbiter               | NONE                 | 07/26/2023          |
+| 1.0.0                | Discord Stable 215115 (c05cd54) | /create_graph_node                       | NONE                 | 07/26/2023          |
+| 1.0.0                | Discord Stable 215115 (c05cd54) | /fetch_training_set                      | NONE                 | 07/26/2023          |
