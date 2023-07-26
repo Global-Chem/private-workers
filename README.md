@@ -27,4 +27,4 @@
 | 1.0.0                | Discord Stable 215115 (c05cd54) | /make_github_issue_lorax                 | FAIL                 | 07/26/2023          | Sulstice   | 
 | 1.0.0                | Discord Stable 215115 (c05cd54) | /make_github_issue_arbiter               | NONE                 | 07/26/2023          | Sulstice   | 
 | 1.0.0                | Discord Stable 215115 (c05cd54) | /create_graph_node                       | PASS                 | 07/26/2023          | Sulstice   | 
-| 1.0.0                | Discord Stable 215115 (c05cd54) | /fetch_training_set                      | NONE                 | 07/26/2023          | Sulstice   | 
+| 1.0.0                | Discord Stable 215115 (c05cd54) | /fetch_training_set                      | FAIL                 | 07/26/2023          | Sulstice   | 
