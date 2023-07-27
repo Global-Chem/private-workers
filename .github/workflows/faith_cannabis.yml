@@ -81,7 +81,7 @@ jobs:
         with:
           args: machine_learning_operations/cannabis/training_results.png
   remove_chemical:
-      if: github.event.label.name == 'remove_chemical'
+      if: github.event.label.name == 'remove_smile_cannabis'
       runs-on: "ubuntu-latest"
       env:
         GITHUB_TOKEN: ${{ secrets.ISSUE_TOKEN }}
