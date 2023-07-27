@@ -141,6 +141,7 @@ jobs:
             pip install torch
             pip install tqdm
             pip install requests
+            pip install global-chem
         - name: Run Analysis
           env:
             GITHUB_TOKEN: ${{ secrets.ISSUE_TOKEN }}
