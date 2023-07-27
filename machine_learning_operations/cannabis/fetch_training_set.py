@@ -10,6 +10,7 @@ from rdkit.Chem import Draw
 
 if __name__ == '__main__':
 
+    molecules = []
     input_file = pd.read_csv('./chemical_list.csv', header=None, usecols=[0], names=["smiles"])
     smiles_list = input_file["smiles"].values.tolist()
     
