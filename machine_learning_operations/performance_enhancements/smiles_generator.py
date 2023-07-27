@@ -3,6 +3,7 @@
 
 from rdkit import Chem
 from global_chem import GlobalChem
+import pandas as pd
 
 if __name__ == '__main__':
 
