@@ -80,7 +80,7 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.FAITH_TOKEN }}
         with:
-          args: machine_learning_operations/cannabis/training_results.png
+          args: machine_learning_operations/cannabis/training_set.png
   remove_chemical:
       if: github.event.label.name == 'remove_smile_cannabis'
       runs-on: "ubuntu-latest"
