@@ -77,7 +77,7 @@ jobs:
       - name: Send file README.md to discord channel
         uses: sinshutu/upload-to-discord@master
         env:
-          DISCORD_WEBHOOK: ${{ secrets.FAITH_TOKEN }}
+          DISCORD_WEBHOOK: ${{ secrets.FOOD_TOKEN }}
         with:
           args: machine_learning_operations/food/training_set.png
   remove_chemical:
@@ -153,6 +153,6 @@ jobs:
       - name: Send file README.md to discord channel
         uses: sinshutu/upload-to-discord@master
         env:
-          DISCORD_WEBHOOK: ${{ secrets.FAITH_TOKEN }}
+          DISCORD_WEBHOOK: ${{ secrets.FOOD_TOKEN }}
         with:
           args: "Model Retrained"
