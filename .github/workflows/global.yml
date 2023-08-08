@@ -6,7 +6,7 @@ on:
       - labeled
 
 jobs:
-  cannabis_run:
+  global_run:
     if: github.event.label.name == 'run_global'
     runs-on: "ubuntu-latest"
     steps:
@@ -45,3 +45,114 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.GLOBAL_TOKEN }}
         with:
           args: machine_learning_operations/global/results.png
+  fetch_training_set:
+    if: github.event.label.name == 'fetch_global'
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+          architecture: x64
+      - uses: actions/cache@v2
+        with:
+          path: ${{ env.pythonLocation }}
+          key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('dev-requirements.txt') }}
+      - name: Install
+        run: |
+          pip install scikit-learn==0.19.2
+          pip install pandas
+          pip install numpy
+          pip install rdkit-pypi
+      - name: Fetch Training Set
+        env:
+          GITHUB_TOKEN: ${{ secrets.ISSUE_TOKEN }}
+        run: |
+          cd machine_learning_operations/global
+          python fetch_training_set.py
+          ls
+      - name: Send file README.md to discord channel
+        uses: sinshutu/upload-to-discord@master
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.GLOBAL_TOKEN }}
+        with:
+          args: machine_learning_operations/global/training_set.png
+  remove_chemical:
+    if: github.event.label.name == 'remove_smile_global'
+    runs-on: "ubuntu-latest"
+    env:
+      GITHUB_TOKEN: ${{ secrets.ISSUE_TOKEN }}
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+          architecture: x64
+      - uses: actions/cache@v2
+        with:
+          path: ${{ env.pythonLocation }}
+          key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('dev-requirements.txt') }}
+      - name: Install
+        run: |
+          pip install pandas
+          pip install click
+      - name: Remove Chemical From List
+        run: |
+          cd machine_learning_operations/global
+          python remove_chemical.py --index ${{ github.event.issue.body }}
+      - name: Commit and Push File
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Removing Chemical Item
+          branch: bot-remove-item
+          create_branch: true
+          file_pattern: 'machine_learning_operations/global/chemical_list.csv'
+  retrain_global:
+    if: github.event.label.name == 'retrain_global'
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+          architecture: x64
+      - uses: actions/cache@v2
+        with:
+          path: ${{ env.pythonLocation }}
+          key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('dev-requirements.txt') }}
+      - name: Install
+        run: |
+          pip install scikit-learn==0.19.2
+          pip install pandas
+          pip install numpy
+          pip install scipy
+          pip install pexpect
+          pip install rdkit-pypi
+          pip install torch
+          pip install tqdm
+          pip install requests
+          pip install global-chem
+      - name: Run Analysis
+        env:
+          GITHUB_TOKEN: ${{ secrets.ISSUE_TOKEN }}
+        run: |
+          cd machine_learning_operations/global
+          python smiles_generator.py
+          python data_structs.py mol.smi
+          python train_prior.py
+      - name: Send file README.md to discord channel
+        uses: sinshutu/upload-to-discord@master
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.GLOBAL_TOKEN }}
+        with:
+          args: "Model Retrained"

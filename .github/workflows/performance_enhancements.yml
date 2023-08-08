@@ -1,4 +1,4 @@
-name: Materials Generative AI Bot
+name: performance_enhancements Generative AI Bot
 
 on:
   issues:
@@ -6,8 +6,8 @@ on:
       - labeled
 
 jobs:
-  materials_run:
-    if: github.event.label.name == 'run_materials'
+  performance_enhancements_run:
+    if: github.event.label.name == 'run_performance_enhancements'
     runs-on: "ubuntu-latest"
     steps:
       - name: Checkout source
@@ -36,17 +36,17 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.ISSUE_TOKEN }}
         run: |
-          cd machine_learning_operations/materials
+          cd machine_learning_operations/performance_enhancements
           python main.py --scoring-function activity_model --num-steps 100  --batch-size 10 > results.out
           python generate_images.py
       - name: Send file README.md to discord channel
         uses: sinshutu/upload-to-discord@master
         env:
-          DISCORD_WEBHOOK: ${{ secrets.MATERIALS_TOKEN }}
+          DISCORD_WEBHOOK: ${{ secrets.PERFORMANCE_ENHANCEMENTS_TOKEN }}
         with:
-          args: machine_learning_operations/materials/results.png
+          args: machine_learning_operations/performance_enhancements/results.png
   fetch_training_set:
-    if: github.event.label.name == 'fetch_materials'
+    if: github.event.label.name == 'fetch_performance_enhancements'
     runs-on: "ubuntu-latest"
     steps:
       - name: Checkout source
@@ -71,17 +71,17 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.ISSUE_TOKEN }}
         run: |
-          cd machine_learning_operations/materials
+          cd machine_learning_operations/performance_enhancements
           python fetch_training_set.py
           ls
       - name: Send file README.md to discord channel
         uses: sinshutu/upload-to-discord@master
         env:
-          DISCORD_WEBHOOK: ${{ secrets.MATERIALS_TOKEN }}
+          DISCORD_WEBHOOK: ${{ secrets.PERFORMANCE_ENHANCEMENTS_TOKEN }}
         with:
-          args: machine_learning_operations/materials/training_set.png
+          args: machine_learning_operations/performance_enhancements/training_set.png
   remove_chemical:
-    if: github.event.label.name == 'remove_smile_materials'
+    if: github.event.label.name == 'remove_smile_performance_enhancements'
     runs-on: "ubuntu-latest"
     env:
       GITHUB_TOKEN: ${{ secrets.ISSUE_TOKEN }}
@@ -105,7 +105,7 @@ jobs:
           pip install click
       - name: Remove Chemical From List
         run: |
-          cd machine_learning_operations/materials
+          cd machine_learning_operations/performance_enhancements
           python remove_chemical.py --index ${{ github.event.issue.body }}
       - name: Commit and Push File
         uses: stefanzweifel/git-auto-commit-action@v4
@@ -113,9 +113,9 @@ jobs:
           commit_message: Removing Chemical Item
           branch: bot-remove-item
           create_branch: true
-          file_pattern: 'machine_learning_operations/materials/chemical_list.csv'
-  retrain_materials:
-    if: github.event.label.name == 'retrain_materials'
+          file_pattern: 'machine_learning_operations/performance_enhancements/chemical_list.csv'
+  retrain_performance_enhancements:
+    if: github.event.label.name == 'retrain_performance_enhancements'
     runs-on: "ubuntu-latest"
     steps:
       - name: Checkout source
@@ -146,13 +146,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.ISSUE_TOKEN }}
         run: |
-          cd machine_learning_operations/materials
+          cd machine_learning_operations/performance_enhancements
           python smiles_generator.py
           python data_structs.py mol.smi
           python train_prior.py
       - name: Send file README.md to discord channel
         uses: sinshutu/upload-to-discord@master
         env:
-          DISCORD_WEBHOOK: ${{ secrets.MATERIALS_TOKEN }}
+          DISCORD_WEBHOOK: ${{ secrets.PERFORMANCE_ENHANCEMENTS_TOKEN }}
         with:
           args: "Model Retrained"
