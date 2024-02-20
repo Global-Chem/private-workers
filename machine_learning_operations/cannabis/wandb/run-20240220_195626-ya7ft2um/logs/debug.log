@@ -20,3 +20,15 @@ config: {}
 2024-02-20 19:56:27,942 INFO    MainThread:78495 [wandb_run.py:_on_init():2262] communicating current version
 2024-02-20 19:56:28,723 INFO    MainThread:78495 [wandb_run.py:_on_init():2271] got version response 
 2024-02-20 19:56:28,723 INFO    MainThread:78495 [wandb_init.py:init():804] starting run threads in backend
+2024-02-20 19:56:32,819 INFO    MainThread:78495 [wandb_run.py:_console_start():2241] atexit reg
+2024-02-20 19:56:32,819 INFO    MainThread:78495 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-02-20 19:56:32,819 INFO    MainThread:78495 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-02-20 19:56:32,819 INFO    MainThread:78495 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-02-20 19:56:32,819 INFO    MainThread:78495 [wandb_init.py:init():847] run started, returning control to user process
+2024-02-20 19:56:32,820 INFO    MainThread:78495 [wandb_run.py:_finish():1970] finishing run global-chem/global-chem/ya7ft2um
+2024-02-20 19:56:32,820 INFO    MainThread:78495 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-02-20 19:56:32,820 INFO    MainThread:78495 [wandb_run.py:_restore():2193] restore
+2024-02-20 19:56:32,820 INFO    MainThread:78495 [wandb_run.py:_restore():2199] restore done
+2024-02-20 19:56:39,399 INFO    MainThread:78495 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-02-20 19:56:39,399 INFO    MainThread:78495 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-02-20 19:56:39,401 INFO    MainThread:78495 [wandb_run.py:_footer_sync_info():3825] logging synced files
