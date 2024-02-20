@@ -1,0 +1,34 @@
+2024-02-20 19:55:33,266 INFO    MainThread:78495 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-02-20 19:55:33,266 INFO    MainThread:78495 [wandb_setup.py:_flush():76] Configure stats pid to 78495
+2024-02-20 19:55:33,267 INFO    MainThread:78495 [wandb_setup.py:_flush():76] Loading settings from /Users/sefunmibodun/.config/wandb/settings
+2024-02-20 19:55:33,267 INFO    MainThread:78495 [wandb_setup.py:_flush():76] Loading settings from /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/settings
+2024-02-20 19:55:33,267 INFO    MainThread:78495 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-02-20 19:55:33,267 INFO    MainThread:78495 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-02-20 19:55:33,267 INFO    MainThread:78495 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'machine_learning_operations/cannabis/train_prior.py', 'program_abspath': '/Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/train_prior.py', 'program': '/Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/./train_prior.py'}
+2024-02-20 19:55:33,267 INFO    MainThread:78495 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-02-20 19:55:33,267 INFO    MainThread:78495 [wandb_init.py:_log_setup():526] Logging user logs to /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195533-u4aaf390/logs/debug.log
+2024-02-20 19:55:33,267 INFO    MainThread:78495 [wandb_init.py:_log_setup():527] Logging internal logs to /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195533-u4aaf390/logs/debug-internal.log
+2024-02-20 19:55:33,267 INFO    MainThread:78495 [wandb_init.py:init():566] calling init triggers
+2024-02-20 19:55:33,267 INFO    MainThread:78495 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-02-20 19:55:33,267 INFO    MainThread:78495 [wandb_init.py:init():616] starting backend
+2024-02-20 19:55:33,267 INFO    MainThread:78495 [wandb_init.py:init():620] setting up manager
+2024-02-20 19:55:33,268 INFO    MainThread:78495 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-02-20 19:55:33,268 INFO    MainThread:78495 [wandb_init.py:init():628] backend started and connected
+2024-02-20 19:55:33,272 INFO    MainThread:78495 [wandb_init.py:init():720] updated telemetry
+2024-02-20 19:55:33,286 INFO    MainThread:78495 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-02-20 19:55:35,249 INFO    MainThread:78495 [wandb_run.py:_on_init():2262] communicating current version
+2024-02-20 19:55:36,142 INFO    MainThread:78495 [wandb_run.py:_on_init():2271] got version response 
+2024-02-20 19:55:36,142 INFO    MainThread:78495 [wandb_init.py:init():804] starting run threads in backend
+2024-02-20 19:55:40,187 INFO    MainThread:78495 [wandb_run.py:_console_start():2241] atexit reg
+2024-02-20 19:55:40,187 INFO    MainThread:78495 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-02-20 19:55:40,187 INFO    MainThread:78495 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-02-20 19:55:40,187 INFO    MainThread:78495 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-02-20 19:55:40,187 INFO    MainThread:78495 [wandb_init.py:init():847] run started, returning control to user process
+2024-02-20 19:55:40,188 INFO    MainThread:78495 [wandb_run.py:_finish():1970] finishing run global-chem/global-chem/u4aaf390
+2024-02-20 19:55:40,188 INFO    MainThread:78495 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-02-20 19:55:40,188 INFO    MainThread:78495 [wandb_run.py:_restore():2193] restore
+2024-02-20 19:55:40,188 INFO    MainThread:78495 [wandb_run.py:_restore():2199] restore done
+2024-02-20 19:55:46,279 INFO    MainThread:78495 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-02-20 19:55:46,280 INFO    MainThread:78495 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-02-20 19:55:46,285 INFO    MainThread:78495 [wandb_run.py:_footer_sync_info():3825] logging synced files

@@ -1,0 +1,37 @@
+{
+    "os": "macOS-13.4-arm64-arm-64bit",
+    "python": "3.11.7",
+    "heartbeatAt": "2024-02-20T18:54:21.137001",
+    "startedAt": "2024-02-20T18:54:18.554579",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/./train_prior.py",
+    "codePathLocal": "train_prior.py",
+    "codePath": "machine_learning_operations/cannabis/train_prior.py",
+    "git": {
+        "remote": "https://github.com/Global-Chem/private-workers.git",
+        "commit": "29d80f783e1349e7ae287ae89e50145a3f309f3b"
+    },
+    "email": "69063508+Nickspizza001@users.noreply.github.com",
+    "root": "/Users/sefunmibodun/Documents/Damilola/private-workers",
+    "host": "Sefunmis-MacBook-Air.local",
+    "username": "sefunmibodun",
+    "executable": "/Users/sefunmibodun/anaconda3/envs/dami/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 66.03440475463867
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

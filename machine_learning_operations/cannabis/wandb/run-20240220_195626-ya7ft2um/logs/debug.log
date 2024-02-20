@@ -1,0 +1,22 @@
+2024-02-20 19:56:26,221 INFO    MainThread:78495 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-02-20 19:56:26,222 INFO    MainThread:78495 [wandb_setup.py:_flush():76] Configure stats pid to 78495
+2024-02-20 19:56:26,222 INFO    MainThread:78495 [wandb_setup.py:_flush():76] Loading settings from /Users/sefunmibodun/.config/wandb/settings
+2024-02-20 19:56:26,222 INFO    MainThread:78495 [wandb_setup.py:_flush():76] Loading settings from /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/settings
+2024-02-20 19:56:26,222 INFO    MainThread:78495 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-02-20 19:56:26,222 INFO    MainThread:78495 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-02-20 19:56:26,222 INFO    MainThread:78495 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'machine_learning_operations/cannabis/train_prior.py', 'program_abspath': '/Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/train_prior.py', 'program': '/Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/./train_prior.py'}
+2024-02-20 19:56:26,222 INFO    MainThread:78495 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-02-20 19:56:26,222 INFO    MainThread:78495 [wandb_init.py:_log_setup():526] Logging user logs to /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195626-ya7ft2um/logs/debug.log
+2024-02-20 19:56:26,222 INFO    MainThread:78495 [wandb_init.py:_log_setup():527] Logging internal logs to /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195626-ya7ft2um/logs/debug-internal.log
+2024-02-20 19:56:26,222 INFO    MainThread:78495 [wandb_init.py:init():566] calling init triggers
+2024-02-20 19:56:26,222 INFO    MainThread:78495 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-02-20 19:56:26,222 INFO    MainThread:78495 [wandb_init.py:init():616] starting backend
+2024-02-20 19:56:26,222 INFO    MainThread:78495 [wandb_init.py:init():620] setting up manager
+2024-02-20 19:56:26,223 INFO    MainThread:78495 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-02-20 19:56:26,223 INFO    MainThread:78495 [wandb_init.py:init():628] backend started and connected
+2024-02-20 19:56:26,226 INFO    MainThread:78495 [wandb_init.py:init():720] updated telemetry
+2024-02-20 19:56:26,242 INFO    MainThread:78495 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-02-20 19:56:27,942 INFO    MainThread:78495 [wandb_run.py:_on_init():2262] communicating current version
+2024-02-20 19:56:28,723 INFO    MainThread:78495 [wandb_run.py:_on_init():2271] got version response 
+2024-02-20 19:56:28,723 INFO    MainThread:78495 [wandb_init.py:init():804] starting run threads in backend
