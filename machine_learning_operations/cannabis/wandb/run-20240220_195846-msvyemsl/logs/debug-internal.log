@@ -27,3 +27,159 @@
 2024-02-20 19:58:48,729 INFO    HandlerThread:78507 [system_monitor.py:probe():227] Publishing system info
 2024-02-20 19:58:48,729 DEBUG   HandlerThread:78507 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
 2024-02-20 19:58:48,896 INFO    Thread-1124:78507 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195846-msvyemsl/files/conda-environment.yaml
+2024-02-20 19:58:52,704 DEBUG   HandlerThread:78507 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-20 19:58:52,704 INFO    HandlerThread:78507 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-20 19:58:52,704 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 19:58:52,705 DEBUG   SenderThread:78507 [sender.py:send():382] send: files
+2024-02-20 19:58:52,705 INFO    SenderThread:78507 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-20 19:58:52,707 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-20 19:58:52,707 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 19:58:52,707 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: python_packages
+2024-02-20 19:58:52,707 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 19:58:52,709 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 19:58:52,709 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 19:58:52,913 INFO    Thread-1124:78507 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195846-msvyemsl/files/conda-environment.yaml
+2024-02-20 19:58:52,913 INFO    Thread-1124:78507 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195846-msvyemsl/files/wandb-metadata.json
+2024-02-20 19:58:52,913 INFO    Thread-1124:78507 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195846-msvyemsl/files/requirements.txt
+2024-02-20 19:58:53,149 DEBUG   SenderThread:78507 [sender.py:send():382] send: telemetry
+2024-02-20 19:58:53,149 DEBUG   SenderThread:78507 [sender.py:send():382] send: history
+2024-02-20 19:58:53,150 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 19:58:53,152 INFO    SenderThread:78507 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 19:58:53,152 DEBUG   SenderThread:78507 [sender.py:send():382] send: telemetry
+2024-02-20 19:58:53,153 DEBUG   SenderThread:78507 [sender.py:send():382] send: exit
+2024-02-20 19:58:53,153 INFO    SenderThread:78507 [sender.py:send_exit():589] handling exit code: 0
+2024-02-20 19:58:53,153 INFO    SenderThread:78507 [sender.py:send_exit():591] handling runtime: 4
+2024-02-20 19:58:53,153 INFO    SenderThread:78507 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 19:58:53,154 INFO    SenderThread:78507 [sender.py:send_exit():597] send defer
+2024-02-20 19:58:53,154 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 19:58:53,154 INFO    HandlerThread:78507 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-20 19:58:53,154 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: defer
+2024-02-20 19:58:53,154 INFO    SenderThread:78507 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-20 19:58:53,154 INFO    SenderThread:78507 [sender.py:transition_state():617] send defer: 1
+2024-02-20 19:58:53,154 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 19:58:53,154 INFO    HandlerThread:78507 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-20 19:58:53,155 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: defer
+2024-02-20 19:58:53,155 INFO    SenderThread:78507 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-20 19:58:53,155 INFO    SenderThread:78507 [sender.py:transition_state():617] send defer: 2
+2024-02-20 19:58:53,155 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 19:58:53,155 INFO    HandlerThread:78507 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-20 19:58:53,155 INFO    HandlerThread:78507 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-20 19:58:53,155 INFO    HandlerThread:78507 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-20 19:58:53,155 DEBUG   SystemMonitor:78507 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-20 19:58:53,156 DEBUG   SystemMonitor:78507 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-20 19:58:53,156 DEBUG   SystemMonitor:78507 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-20 19:58:53,156 INFO    HandlerThread:78507 [interfaces.py:finish():202] Joined disk monitor
+2024-02-20 19:58:53,156 INFO    HandlerThread:78507 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-02-20 19:58:53,156 INFO    HandlerThread:78507 [interfaces.py:finish():202] Joined memory monitor
+2024-02-20 19:58:53,156 INFO    HandlerThread:78507 [interfaces.py:finish():202] Joined network monitor
+2024-02-20 19:58:53,157 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: defer
+2024-02-20 19:58:53,157 INFO    SenderThread:78507 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-20 19:58:53,157 INFO    SenderThread:78507 [sender.py:transition_state():617] send defer: 3
+2024-02-20 19:58:53,157 DEBUG   SenderThread:78507 [sender.py:send():382] send: telemetry
+2024-02-20 19:58:53,157 DEBUG   SenderThread:78507 [sender.py:send():382] send: stats
+2024-02-20 19:58:53,157 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 19:58:53,157 INFO    HandlerThread:78507 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-20 19:58:53,157 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: defer
+2024-02-20 19:58:53,157 INFO    SenderThread:78507 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-20 19:58:53,157 INFO    SenderThread:78507 [sender.py:transition_state():617] send defer: 4
+2024-02-20 19:58:53,157 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 19:58:53,158 INFO    HandlerThread:78507 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-20 19:58:53,158 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: defer
+2024-02-20 19:58:53,158 INFO    SenderThread:78507 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-20 19:58:53,158 INFO    SenderThread:78507 [sender.py:transition_state():617] send defer: 5
+2024-02-20 19:58:53,158 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 19:58:53,158 INFO    HandlerThread:78507 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-20 19:58:53,158 DEBUG   SenderThread:78507 [sender.py:send():382] send: summary
+2024-02-20 19:58:53,159 INFO    SenderThread:78507 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 19:58:53,159 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: defer
+2024-02-20 19:58:53,159 INFO    SenderThread:78507 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-20 19:58:53,159 INFO    SenderThread:78507 [sender.py:transition_state():617] send defer: 6
+2024-02-20 19:58:53,159 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 19:58:53,159 INFO    HandlerThread:78507 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-20 19:58:53,160 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: defer
+2024-02-20 19:58:53,160 INFO    SenderThread:78507 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-20 19:58:53,163 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 19:58:53,518 INFO    SenderThread:78507 [sender.py:transition_state():617] send defer: 7
+2024-02-20 19:58:53,518 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 19:58:53,518 INFO    HandlerThread:78507 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-20 19:58:53,518 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: defer
+2024-02-20 19:58:53,518 INFO    SenderThread:78507 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-20 19:58:53,518 INFO    SenderThread:78507 [sender.py:transition_state():617] send defer: 8
+2024-02-20 19:58:53,518 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 19:58:53,518 INFO    HandlerThread:78507 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-20 19:58:53,518 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: defer
+2024-02-20 19:58:53,518 INFO    SenderThread:78507 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-20 19:58:53,518 INFO    SenderThread:78507 [job_builder.py:build():296] Attempting to build job artifact
+2024-02-20 19:58:53,519 INFO    SenderThread:78507 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-02-20 19:58:53,520 INFO    SenderThread:78507 [job_builder.py:build():402] adding wandb-job metadata file
+2024-02-20 19:58:53,522 INFO    SenderThread:78507 [sender.py:transition_state():617] send defer: 9
+2024-02-20 19:58:53,523 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 19:58:53,523 INFO    HandlerThread:78507 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-20 19:58:53,523 DEBUG   SenderThread:78507 [sender.py:send():382] send: artifact
+2024-02-20 19:58:53,713 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-20 19:58:53,918 INFO    Thread-1124:78507 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195846-msvyemsl/files/config.yaml
+2024-02-20 19:58:53,918 INFO    Thread-1124:78507 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195846-msvyemsl/files/wandb-summary.json
+2024-02-20 19:58:53,930 INFO    wandb-upload_0:78507 [upload_job.py:push():131] Uploaded file /var/folders/fp/n6tyvsqs38bcnkzxj_x61ctw0000gn/T/tmp7e_x1pcswandb/d4czz0g9-wandb-metadata.json
+2024-02-20 19:58:55,290 INFO    SenderThread:78507 [sender.py:send_artifact():1494] sent artifact job-https___github.com_Global-Chem_private-workers.git_machine_learning_operations_cannabis_train_prior.py - {'id': 'QXJ0aWZhY3Q6NzI3MTE2NjMx', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MTUzNDc1OA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzI3MTE2NjMx', 'versionIndex': 6}}}
+2024-02-20 19:58:55,291 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: defer
+2024-02-20 19:58:55,291 INFO    SenderThread:78507 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-20 19:58:55,291 INFO    SenderThread:78507 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-20 19:58:55,929 INFO    SenderThread:78507 [dir_watcher.py:finish():388] scan: /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195846-msvyemsl/files
+2024-02-20 19:58:55,929 INFO    SenderThread:78507 [dir_watcher.py:finish():402] scan save: /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195846-msvyemsl/files/requirements.txt requirements.txt
+2024-02-20 19:58:55,930 INFO    SenderThread:78507 [dir_watcher.py:finish():402] scan save: /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195846-msvyemsl/files/config.yaml config.yaml
+2024-02-20 19:58:55,931 INFO    SenderThread:78507 [dir_watcher.py:finish():402] scan save: /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195846-msvyemsl/files/wandb-summary.json wandb-summary.json
+2024-02-20 19:58:55,932 INFO    SenderThread:78507 [dir_watcher.py:finish():402] scan save: /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195846-msvyemsl/files/conda-environment.yaml conda-environment.yaml
+2024-02-20 19:58:55,935 INFO    SenderThread:78507 [dir_watcher.py:finish():402] scan save: /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195846-msvyemsl/files/wandb-metadata.json wandb-metadata.json
+2024-02-20 19:58:55,935 INFO    SenderThread:78507 [sender.py:transition_state():617] send defer: 10
+2024-02-20 19:58:55,937 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: poll_exit
+2024-02-20 19:58:55,938 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 19:58:55,938 INFO    HandlerThread:78507 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-20 19:58:55,938 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: defer
+2024-02-20 19:58:55,938 INFO    SenderThread:78507 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-20 19:58:55,939 INFO    SenderThread:78507 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-20 19:58:56,582 INFO    wandb-upload_0:78507 [upload_job.py:push():131] Uploaded file /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195846-msvyemsl/files/requirements.txt
+2024-02-20 19:58:56,726 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-20 19:58:56,727 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: poll_exit
+2024-02-20 19:58:56,880 INFO    wandb-upload_1:78507 [upload_job.py:push():131] Uploaded file /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195846-msvyemsl/files/config.yaml
+2024-02-20 19:58:56,921 INFO    wandb-upload_3:78507 [upload_job.py:push():131] Uploaded file /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195846-msvyemsl/files/conda-environment.yaml
+2024-02-20 19:58:57,108 INFO    wandb-upload_2:78507 [upload_job.py:push():131] Uploaded file /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195846-msvyemsl/files/wandb-summary.json
+2024-02-20 19:58:57,314 INFO    Thread-1123 (_thread_body):78507 [sender.py:transition_state():617] send defer: 11
+2024-02-20 19:58:57,315 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 19:58:57,315 INFO    HandlerThread:78507 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-20 19:58:57,315 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: defer
+2024-02-20 19:58:57,316 INFO    SenderThread:78507 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-20 19:58:57,316 INFO    SenderThread:78507 [file_pusher.py:join():178] waiting for file pusher
+2024-02-20 19:58:57,316 INFO    SenderThread:78507 [sender.py:transition_state():617] send defer: 12
+2024-02-20 19:58:57,317 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 19:58:57,317 INFO    HandlerThread:78507 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-20 19:58:57,317 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: defer
+2024-02-20 19:58:57,317 INFO    SenderThread:78507 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-20 19:58:57,317 INFO    SenderThread:78507 [file_stream.py:finish():595] file stream finish called
+2024-02-20 19:58:57,610 INFO    SenderThread:78507 [file_stream.py:finish():599] file stream finish is done
+2024-02-20 19:58:57,610 INFO    SenderThread:78507 [sender.py:transition_state():617] send defer: 13
+2024-02-20 19:58:57,610 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 19:58:57,611 INFO    HandlerThread:78507 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-20 19:58:57,611 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: defer
+2024-02-20 19:58:57,611 INFO    SenderThread:78507 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-20 19:58:57,611 INFO    SenderThread:78507 [sender.py:transition_state():617] send defer: 14
+2024-02-20 19:58:57,612 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 19:58:57,612 DEBUG   SenderThread:78507 [sender.py:send():382] send: final
+2024-02-20 19:58:57,612 INFO    HandlerThread:78507 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-20 19:58:57,612 DEBUG   SenderThread:78507 [sender.py:send():382] send: footer
+2024-02-20 19:58:57,613 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: defer
+2024-02-20 19:58:57,613 INFO    SenderThread:78507 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-20 19:58:57,614 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-20 19:58:57,615 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: poll_exit
+2024-02-20 19:58:57,616 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 19:58:57,616 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: server_info
+2024-02-20 19:58:57,617 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-20 19:58:57,617 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-20 19:58:57,617 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: server_info
+2024-02-20 19:58:57,618 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: job_info
+2024-02-20 19:58:57,982 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: job_info
+2024-02-20 19:58:57,984 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-20 19:58:57,985 INFO    HandlerThread:78507 [handler.py:finish():869] shutting down handler
+2024-02-20 19:58:58,625 INFO    WriterThread:78507 [datastore.py:close():296] close: /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195846-msvyemsl/run-msvyemsl.wandb
+2024-02-20 19:58:58,986 INFO    SenderThread:78507 [sender.py:finish():1572] shutting down sender
+2024-02-20 19:58:58,986 INFO    SenderThread:78507 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-20 19:58:58,986 INFO    SenderThread:78507 [file_pusher.py:join():178] waiting for file pusher

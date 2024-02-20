@@ -1,0 +1,29 @@
+2024-02-20 19:58:59,994 INFO    StreamThr :78507 [internal.py:wandb_internal():86] W&B internal server running at pid: 78507, started at: 2024-02-20 19:58:59.993438
+2024-02-20 19:58:59,996 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: status
+2024-02-20 19:58:59,997 INFO    WriterThread:78507 [datastore.py:open_for_write():87] open: /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195859-4jtw48si/run-4jtw48si.wandb
+2024-02-20 19:58:59,999 DEBUG   SenderThread:78507 [sender.py:send():382] send: header
+2024-02-20 19:58:59,999 DEBUG   SenderThread:78507 [sender.py:send():382] send: run
+2024-02-20 19:59:01,503 INFO    SenderThread:78507 [dir_watcher.py:__init__():211] watching files in: /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195859-4jtw48si/files
+2024-02-20 19:59:01,503 INFO    SenderThread:78507 [sender.py:_start_run_threads():1136] run started: 4jtw48si with start time 1708455539.203373
+2024-02-20 19:59:01,512 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: check_version
+2024-02-20 19:59:01,512 DEBUG   SenderThread:78507 [sender.py:send_request():409] send_request: check_version
+2024-02-20 19:59:02,329 DEBUG   HandlerThread:78507 [handler.py:handle_request():146] handle_request: run_start
+2024-02-20 19:59:02,330 DEBUG   HandlerThread:78507 [system_info.py:__init__():27] System info init
+2024-02-20 19:59:02,331 DEBUG   HandlerThread:78507 [system_info.py:__init__():42] System info init done
+2024-02-20 19:59:02,331 INFO    HandlerThread:78507 [system_monitor.py:start():194] Starting system monitor
+2024-02-20 19:59:02,331 INFO    SystemMonitor:78507 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-20 19:59:02,331 INFO    HandlerThread:78507 [system_monitor.py:probe():214] Collecting system info
+2024-02-20 19:59:02,331 DEBUG   HandlerThread:78507 [system_info.py:probe():151] Probing system
+2024-02-20 19:59:02,332 INFO    SystemMonitor:78507 [interfaces.py:start():190] Started cpu monitoring
+2024-02-20 19:59:02,332 INFO    SystemMonitor:78507 [interfaces.py:start():190] Started disk monitoring
+2024-02-20 19:59:02,340 INFO    SystemMonitor:78507 [interfaces.py:start():190] Started gpuapple monitoring
+2024-02-20 19:59:02,342 INFO    SystemMonitor:78507 [interfaces.py:start():190] Started memory monitoring
+2024-02-20 19:59:02,344 INFO    SystemMonitor:78507 [interfaces.py:start():190] Started network monitoring
+2024-02-20 19:59:02,346 DEBUG   HandlerThread:78507 [system_info.py:_probe_git():136] Probing git
+2024-02-20 19:59:02,367 DEBUG   HandlerThread:78507 [system_info.py:_probe_git():144] Probing git done
+2024-02-20 19:59:02,367 DEBUG   HandlerThread:78507 [system_info.py:probe():199] Probing system done
+2024-02-20 19:59:02,367 DEBUG   HandlerThread:78507 [system_monitor.py:probe():223] {'os': 'macOS-13.4-arm64-arm-64bit', 'python': '3.11.7', 'heartbeatAt': '2024-02-20T18:59:02.331692', 'startedAt': '2024-02-20T18:58:59.199628', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/./train_prior.py', 'codePathLocal': 'train_prior.py', 'codePath': 'machine_learning_operations/cannabis/train_prior.py', 'git': {'remote': 'https://github.com/Global-Chem/private-workers.git', 'commit': '4b6be2621b36ed330ff58eca81e67418e301dbc5'}, 'email': '69063508+Nickspizza001@users.noreply.github.com', 'root': '/Users/sefunmibodun/Documents/Damilola/private-workers', 'host': 'Sefunmis-MacBook-Air.local', 'username': 'sefunmibodun', 'executable': '/Users/sefunmibodun/anaconda3/envs/dami/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'/': {'total': 228.27386474609375, 'used': 66.01516342163086}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2024-02-20 19:59:02,367 INFO    HandlerThread:78507 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-20 19:59:02,367 INFO    HandlerThread:78507 [system_monitor.py:probe():227] Publishing system info
+2024-02-20 19:59:02,367 DEBUG   HandlerThread:78507 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-20 19:59:02,508 INFO    Thread-1136:78507 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sefunmibodun/Documents/Damilola/private-workers/machine_learning_operations/cannabis/wandb/run-20240220_195859-4jtw48si/files/conda-environment.yaml
